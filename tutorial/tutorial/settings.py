@@ -25,7 +25,7 @@ SECRET_KEY = 'm=ry!h))f!)ip*fp5z_aond3$$-qb$k8$+wr%n7o_0m935$_sv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1','172.26.140.25']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','172.26.140.25','192.168.1.31']
 REST_FRAMEWORK = {
         'DEFAULT_PAGINOTIOR?CLASS':'rest_framework.pagination.PageNumberPagination',
         'PAGE_SIZE':10
